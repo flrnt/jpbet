@@ -13,3 +13,51 @@
  *= require_tree .
  *= require_self
  */
+html, body {
+  background: -webkit-linear-gradient(90deg, #232526 10%, #414345 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #232526 10%, #414345 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #232526 10%, #414345 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #232526 10%, #414345 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #232526 10%, #414345 90%); /* W3C */
+  height: 100%;
+}
+.header {
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height: 100%;
+}
+
+#head-title, #sub-title {
+  font-family: sans-serif;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: rgba(251, 196, 27, 0.86);
+}
+
+#head-title {
+  font-weight: bold;
+  font-size: 76px;
+  margin-left: -14px;
+}
+
+#sub-title {
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing: 11px;
+}
+
+footer a {
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  padding: 10px;
+  color: #404244;
+  opacity: 0.25;
+}
+footer a:hover {
+  text-decoration: none;
+  color:grey;
+}
+
