@@ -38,8 +38,9 @@ html, body {
 
 #head-title {
   font-weight: bold;
-  font-size: 76px;
+  font-size: 90px;
   margin-left: -14px;
+  letter-spacing: 12px;
 }
 
 #sub-title {
