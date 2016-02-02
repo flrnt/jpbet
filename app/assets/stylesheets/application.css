@@ -31,14 +31,14 @@ html, body {
 
 #head-title, #sub-title {
   font-family: sans-serif;
-  line-height: 29px;
+  line-height: 40px;
   text-transform: uppercase;
   color: rgba(251, 196, 27, 0.86);
 }
 
 #head-title {
   font-weight: bold;
-  font-size: 90px;
+  font-size: 130px;
   margin-left: -14px;
   letter-spacing: 12px;
 }
@@ -47,6 +47,33 @@ html, body {
   font-weight: 100;
   font-size: 18px;
   letter-spacing: 11px;
+}
+.mailing {
+
+  width: 350px;
+}
+form {
+  display: flex;
+  justify-content: space-around;
+}
+input[type="text"] {
+  flex-grow: 1;
+  margin-right: 5px;
+  background-color: transparent;
+  color: rgba(251, 196, 27, 0.4);
+  border: 2px solid rgba(251, 196, 27, 0.4);
+  outline:none;
+  padding: 5px;
+}
+input[type="submit"] {
+  padding: 5px 10px;
+  background-color: transparent;
+  color: rgba(251, 196, 27, 0.4);
+  border: 2px solid rgba(251, 196, 27, 0.4);
+}
+input[type="submit"]:hover {
+  color: rgba(251, 196, 27, 0.86);
+  border: 2px solid rgba(251, 196, 27, 0.86);
 }
 
 footer a {
@@ -61,4 +88,3 @@ footer a:hover {
   text-decoration: none;
   color:grey;
 }
-
